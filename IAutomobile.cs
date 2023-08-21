@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace References
 {
-    internal interface Automobile
+    internal interface IAutomobile
     {
         //it initalizes the get function for wheels, speed, and licenseplate
         public double Speed { get; }
@@ -15,7 +15,7 @@ namespace References
 
         public string LicensePlate { get; }
 
-        // make a some thing that can be used in other class
+        // make a some thing that can be used in other classes
         public void Stringify();
     }
 }

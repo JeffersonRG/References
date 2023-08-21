@@ -4,7 +4,7 @@ using References;
 
 //makes reference for myfirstsedan
 Sedan myFirstSedan = new Sedan(0);
-Automobile myAutomobile = myFirstSedan;
+IAutomobile myAutomobile = myFirstSedan;
 
 //makes reference for myothersedan
 Sedan myOtherSedan = new Sedan(0);

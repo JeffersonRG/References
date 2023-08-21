@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace References
 {
-    internal class Sedan : Automobile
+    internal class Sedan : IAutomobile
     {
         // gets the get from automobile and makes it private
         public double Speed  { get; private set; }
